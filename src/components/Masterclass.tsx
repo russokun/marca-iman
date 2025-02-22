@@ -2,13 +2,12 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Masterclass = () => {
     return (
-      <section id="masterclass" className="bg-brand-forest py-20">
+      <section id="masterclass" className="bg-brand-cream py-20">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-8 text-center text-brand-cream">Masterclass Marca Imán</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center text-brand-forest">Masterclass Marca Imán</h2>
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
                   <h3 className="text-xl font-semibold text-brand-forest mb-2">Módulo 1: Fundamentos</h3>

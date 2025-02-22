@@ -31,7 +31,7 @@ const Testimonials = () => {
               key={index} 
               className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="mb-4 text-brand-sage text-4xl">"</div>
+              <div className="mb-4 text-brand-sage text-4xl">&ldquo;</div>
               <p className="italic text-brand-dark/90 mb-4">
                 {testimonial.quote}
               </p>
