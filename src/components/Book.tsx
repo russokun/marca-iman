@@ -1,5 +1,5 @@
 'use client';
-
+import mockup from '../img/mockup_01.png';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -11,11 +11,12 @@ const Book = () => {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <Image
-                  src="/placeholder.svg"
+                  src={mockup}
                   alt="Portada del libro Marca Imán"
-                  width={300}
-                  height={400}
-                  className="rounded-lg shadow-lg"
+                  width={550}
+                  height={650}
+                  className=""
+                  priority
                 />
               </div>
               <div className="md:w-1/2 md:pl-8">

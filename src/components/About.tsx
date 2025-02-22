@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-brand-forest">Sobre el Libro y Masterclass</h2>
           <div className="bg-brand-cream p-8 rounded-lg shadow-lg">
-            <p className="text-lg text-brand-dark/90 leading-relaxed">
+            <p className="text-lg text-gray-950">
               "Marca Imán" es una guía práctica diseñada para ayudarte a construir una marca personal 
               que atraiga oportunidades y conecte de manera auténtica con tu audiencia. A través del libro 
               y la masterclass, descubrirás las estrategias probadas para destacar en el mercado digital 
